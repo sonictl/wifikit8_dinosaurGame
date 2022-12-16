@@ -11,6 +11,10 @@ If you like this game, any contributions are welcomed.
 
 ESP8266 driven board `wifi_kit_8` dev by Heltech Co. Ltd. in Chengdu.
 
+## Development tools
+
+VsCode + platformIO for arduino development.
+
 ## Software library depends
 
 ESP8266_Arduino core
@@ -28,8 +32,13 @@ More details, see the `platformio.ini`
 
 ## todo list:
 
- -[x] add speed various for monster moving, delta_speed = score/15 or vary the beatTime1 by value of score.
- -[ ] Write the highest score in SNIFFS or LITTLEFS, and display it when game over.
- -[ ] Make a cool animation for the occurency of new high score record.
- -[ ] write the code into .cpp & .h files to make them clear.
- -[ ] add non-source beeper and music for this game.
+- [x] add speed various for monster moving, delta_speed = score/15 or vary the beatTime1 by value of score.
+ 
+- [ ] Write the highest score in SNIFFS or LITTLEFS, and display it when game over.
+ 
+- [ ] Make a cool animation for the occurency of new high score record.
+ 
+- [ ] write the code into .cpp & .h files to make them clear.
+ 
+- [ ] add non-source beeper and music for this game.
+ 
